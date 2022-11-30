@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && tsc -p tsconfig.build.json",
-    "build-prod": "tsc -p tsconfig.build.json",
+    "build": "vite build && ttsc -p ./tsconfig.json",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,6 +17,7 @@
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
     "typescript": "^4.6.4",
+    "ttypescript": "^1.5.13",
     "vite": "^3.2.3"
   }
 }
